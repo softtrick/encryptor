@@ -16,6 +16,8 @@ def main():
     cyphertext = encrypt(plaintext, key)
     print(f"Key: {key}")
     print(cyphertext)
+    
+    input("Press Enter to close...")
 
 # Define encrypt function
 def encrypt(plaintext, key):
@@ -34,7 +36,7 @@ def encrypt(plaintext, key):
     return cyphertext
 
 
-input("Press Enter to close...")
+
 
 if __name__ == "__main__":
     main()
