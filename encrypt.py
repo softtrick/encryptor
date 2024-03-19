@@ -33,5 +33,8 @@ def encrypt(plaintext, key):
             
     return cyphertext
 
+
+input("Press Enter to close...")
+
 if __name__ == "__main__":
     main()
