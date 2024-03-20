@@ -14,7 +14,7 @@ def main():
     # If key is 'n', generate a random key
     if key == "n":
         # if plaintext is empty generate set key length to 10
-        generate_key(len(plaintext) if plaintext else 10)
+        key = generate_key(len(plaintext) if plaintext else 10)
 
     # Encrypt plaintext using key
     cyphertext = encrypt(plaintext, key)
